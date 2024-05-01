@@ -1,0 +1,74 @@
+.avatar-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .avatar {
+    width: 80px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #4caf50; /* Green color, you can customize this */
+  }
+
+  .homepage-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 20px;
+    background: red;
+    color: white;
+  }
+
+  /* Leaderboard.css */
+.leaderboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .leaderboard {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leaderboard h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .leaderboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .leaderboard-item {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .leaderboard-item span {
+    font-weight: bold;
+  }
+  
+  .leaderboard-icon {
+    cursor: pointer;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
